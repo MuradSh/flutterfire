@@ -11,11 +11,10 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 
 Before using Firebase Cloud Messaging, you must first have ensured you have [initialized FlutterFire](../overview.mdx#initializing-flutterfire).
 
-To create a new Messaging instance, call the [`instance`](!firebase_messaging.FirebaseMessaging.instance) getter on
-[`FirebaseMessaging`](!firebase_messaging.FirebaseMessaging):
+To create a new Messaging instance, assign FirebaseMessaging() to a variable
 
 ```dart
-FirebaseMessaging messaging = FirebaseMessaging.instance;
+FirebaseMessaging messaging = FirebaseMessaging();
 ```
 
 Messaging currently only supports usage with the default Firebase App instance.
